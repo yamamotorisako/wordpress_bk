@@ -2345,12 +2345,12 @@ p.form-submit { margin-top: 30px; }
 .footer .widget-title { 
 	color: #FFF; 
 	letter-spacing: 1px; 
-	font-size: 0.79em;
+	font-size: 0.9em;
 }
 
 .footer .widget-content { 
 	color: #767676; 
-	font-size: 0.95em;
+	font-size: 0.8em;
 }
 
 .footer .widget-content p { line-height: 160%; }

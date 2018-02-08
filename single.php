@@ -118,7 +118,7 @@
 				
 					<?php elseif ( has_post_thumbnail() ) : ?>
 					
-						<div class="featured-media">
+						 <!--<div class="featured-media">
 						
 							<?php the_post_thumbnail( 'post-image' ); ?>
 							
@@ -149,8 +149,14 @@
 						wp_link_pages();
 						?>
 						
-						<div class="clear"></div>
-									        
+                                        <br>
+                                        <a href="https://twitter.com/share" class="twitter-share-button" data-count="vertical" data-via="uszero800" data-url="<?php the_permalink(); ?>" data-text="<?php the_title(); ?>"><img src="http://moku00moku.wp.xdomain.jp/wp-content/uploads/2018/02/bard3.png" width="160px"></a>
+                                        <style type="text/css">
+                                            <!-- .twitter-share-button:hover { 
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    -ms-filter: "alpha(opacity=70)";}-->
+                        </style>								        
 					</div><!-- .post-content -->
 					            					
 					<div class="post-meta-container">
@@ -198,7 +204,11 @@
 																	
 									if ( ! empty( $author_twitter ) ) : ?>
 									
+									<div height="38px" text-align="middle">
+									
 										<a class="author-link-twitter" title="<?php printf( __( '@%s on Twitter', 'baskerville' ), $author_twitter ); ?>" href="http://www.twitter.com/<?php echo $author_twitter; ?>"><?php printf( __( '@%s on Twitter', 'baskerville' ), $author_twitter ); ?></a>
+										
+										</div>
 										
 									<?php endif; ?>
 									

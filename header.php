@@ -29,13 +29,13 @@
 			
 				<?php if ( get_theme_mod( 'baskerville_logo' ) ) : ?>
 				
-					<div class="blog-logo">
+                <h1 class="blog-logo">
 					
 				        <a class="logo" href='<?php echo esc_url( home_url( '/' ) ); ?>' title='<?php echo esc_attr( get_bloginfo( 'title' ) ); ?> &mdash; <?php echo esc_attr( get_bloginfo( 'description' ) ); ?>' rel='home'>
-				        	<img src='<?php echo esc_url( get_theme_mod( 'baskerville_logo' ) ); ?>' alt='<?php echo esc_attr( get_bloginfo( 'title' ) ); ?>'>
+				        	<img src='<?php echo esc_url( get_theme_mod( 'baskerville_logo' ) ); ?>' alt="もくもく作業きろく -できるからするんじゃなくて、できないからするんです-">
 				        </a>
 			        
-					</div>
+                    </h1>
 			
 				<?php elseif ( get_bloginfo( 'description' ) || get_bloginfo( 'title' ) ) : ?>
 								
